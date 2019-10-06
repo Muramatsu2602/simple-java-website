@@ -14,10 +14,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author pedro
+ * @author pedro catalog = "PoliticosJava", schema = "public"
  */
 @Entity
-@Table(name = "usuarios", catalog = "PoliticosJava", schema = "public")
+@Table(name = "usuarios")
 @XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "Usuarios.findAll", query = "SELECT u FROM Usuarios u"),
